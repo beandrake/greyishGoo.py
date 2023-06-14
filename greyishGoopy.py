@@ -1,4 +1,5 @@
 from github import Github
+import dotenv
 import os
 
 
@@ -25,6 +26,8 @@ def replicate(login_or_token):
 
 
 if __name__ == "__main__":
-	myOAuth = os.environ['github_OAuth']	# Gets OAuth from environment variable
+	# Gets OAuth from .env file
+	dotenv.load_dotenv()	
+	myOAuth = os.getenv(r'github_OAuth')	
 	newRepo = replicate(login_or_token=myOAuth)
 	input(r"Press Enter to continue...")
