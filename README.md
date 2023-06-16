@@ -7,7 +7,7 @@ See [https://docs.github.com/en/authentication/keeping-your-account-and-data-sec
 
 2. Open a command window and make a local clone of this repository:
 
-       git clone https://github.com/beandrake/greyishGoopy.git
+       git clone https://github.com/beandrake/greyishGoo.py.git
 
 3. In the directory of your local clone, create and activate a virtual environment and install dependencies:
 
@@ -21,4 +21,4 @@ See [https://docs.github.com/en/authentication/keeping-your-account-and-data-sec
 
 5. Run the program:
 
-       python greyishGoopy.py
+       python greyishGoo.py
